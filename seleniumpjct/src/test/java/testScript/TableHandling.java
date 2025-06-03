@@ -6,6 +6,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 public class TableHandling extends Base
+
+//findElements returns empty list
+//but for findElement no elements found ....>no such element exception
 {
 	public void tablePrinting()
 	{
